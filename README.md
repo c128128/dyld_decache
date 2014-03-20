@@ -1,10 +1,10 @@
 Tested on OS X 10.9.2
 
-# Install boost
+#### -Install boost
 
 brew install boost
 
-# Compile
+#### -Compile
 
 make
 

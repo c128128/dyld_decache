@@ -1,7 +1,7 @@
 TARGET = dyld_decache
-LIBS = /opt/local/lib/libboost_filesystem-mt.a /opt/local/lib/libboost_system-mt.a
+LIBS = /usr/local/lib/libboost_filesystem-mt.a /usr/local/lib/libboost_system-mt.a
 CPP = clang++
-CFLAGS = -g -Wall -Wextra -std=c++98 -I/opt/local/include
+CFLAGS = -g -Wall -Wextra -std=c++98 -I/usr/local/include
 LFLAGS = -Wall 
 
 .PHONY: default all clean
